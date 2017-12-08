@@ -11,7 +11,7 @@ git fetch origin
 
 git checkout origin/master
 
-git -b "new-feature-name"
+git checkout -b "new-feature-name"
 ```
 
 ## Rebase to get updates from origin
