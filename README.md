@@ -25,3 +25,20 @@ git push origin "feature-branch-name" -f
 
 ```
 
+## Git Stashing
+
+### To list stashes
+```bash
+git stash list
+```
+
+### To apply specific stash
+```bash
+git stash apply stash@{0}
+```
+
+### To drop specific stash
+```bash
+git stash drop stash@{0}
+```
+
